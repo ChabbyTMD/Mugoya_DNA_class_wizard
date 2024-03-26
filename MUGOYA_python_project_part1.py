@@ -194,7 +194,6 @@ class DNA(nucleotide):
 
     def reverse_complement(self):
         reverse_dict = {"A": "T", "T": "A", "G": "C", "C": "G"}
-        test = "ATCTCGGTCT"
         # Turn nucleotide string into list of nucleotides
         dna_list = list(self.sequence)
 
